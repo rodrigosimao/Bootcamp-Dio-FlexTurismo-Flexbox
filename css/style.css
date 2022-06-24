@@ -92,7 +92,7 @@ img {
 
 /* Responsive Header */
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .header {
     flex-direction: column;
     padding-top: 60px;
@@ -167,7 +167,7 @@ img {
 
 /* Responsive Intro */
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .intro {
     display: inline-block;
     margin-top: 30px;
@@ -278,7 +278,7 @@ img {
 
 /* Responsive Serviços */
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .servicos-titulo {
     font-size: 2rem;
     padding-top: 50px;
@@ -367,7 +367,7 @@ img {
 
 /* Responsive Serviços */
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
   .planos-container {
     flex-direction: column;
     align-items: center;
