@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Flex Turismo - Flexbox exercício</title>
+</head>
+
+<body>
+
+    <header class="header-bg">
+        <div class="header container">
+            <h1 class="header-titulo">flex turismos</h1>
+            <nav aria-label="primary">
+                <ul class="header-menu">
+                    <li><a href="#quem-somos">quem somos</a></li>
+                    <li><a href="#servicos">serviços</a></li>
+                    <li><a href="#planos">planos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="intro container">
+                <div class="flexbox">
+                    <h1 class="intro-titulo">flex turismos</h1>
+                    <p class="subtitulo">O melhor serviço para você!</p>
+                    <a class="btn" href="./">Saiba mais!</a>
+                </div>
+                <div class="intro-img">
+                    <img src="./imagens/0-main.png" alt="">
+                </div>
+            </div>
+
+            <div class="intro container">
+                <div class="intro-img">
+                    <img class="somos" src="./imagens/1-quem-somos.png" alt="">
+                </div>
+                <div class="flexbox" id="quem-somos">
+                    <h2 class="intro-subtitulo">quem somos</h2>
+                    <p class="texto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
+                    <p class="texto">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+                </div>
+            </div>
+        </section>
+        <section class="servicos-bg" id="servicos">
+            <div class="servicos container">
+                <div class="servicos-titulo">
+                    <h2>serviços</h2>
+                </div>
+
+                <div class="servicos-container">
+                    <div class="pacotes">
+                        <img src="./imagens/icon-1.png" alt="">
+                        <p>Pacotes de viagem</p>
+                        <div class="btn-comprar">
+                            <a class="btn-servicos" href="./">Comprar agora</a>
+                        </div>
+
+                    </div>
+
+                    <div class="hospedagens">
+                        <img src="./imagens/icon-2.png" alt="">
+                        <p>Hospedagens</p>
+                        <div class="btn-comprar">
+                            <a class="btn-servicos" href="./">Comprar agora</a>
+                        </div>
+
+                    </div>
+
+                    <div class="roteiros">
+                        <img src="./imagens/icon-3.png" alt="">
+                        <p>Roteiros personalizados</p>
+                        <div class="btn-comprar">
+                            <a class="btn-servicos" href="./">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="planos">
+            <div class="planos container">
+                <div class="planos-titulo">
+                    <h2>planos</h2>
+                </div>
+                <div class="planos-container">
+                    <div class="plano1">
+                        <h3>Plano 1</h3>
+                        <ul class="planos-menu">
+                            <li>Suporte 24h</li>
+                            <li>Serviços de quarto</li>
+                            <li>Guia turístico</li>
+                        </ul>
+                        <a class="btn-planos" href="">Saiba mais!</a>
+                    </div>
+
+                    <div class="plano2">
+                        <h3>Plano 2</h3>
+                        <ul class="planos-menu">
+                            <li>Suporte 24h</li>
+                            <li>Serviços de quarto</li>
+                            <li>Guia turístico</li>
+                            <li>Roteiro de trilhas</li>
+                            <li>Serviço personalizado</li>
+                        </ul>
+                        <a class="btn-planos" href="">Saiba mais!</a>
+                    </div>
+
+                    <div class="plano3">
+                        <h3>Plano 3</h3>
+                        <ul class="planos-menu">
+                            <li>Suporte 24h</li>
+                            <li>Serviços de quarto</li>
+                            <li>Guia turístico</li>
+                            <li>Roteiro de trilhas</li>
+                            <li>Serviço personalizado</li>
+                            <li>Área Vip</li>
+
+                        </ul>
+                        <a class="btn-planos" href="">Saiba mais!</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-bg">
+        <div class="footer container">
+            <p>&copy; 2021 CSS Flexbox</p>
+            <p>Desenvolvido por: Rodrigo Simao</p>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
