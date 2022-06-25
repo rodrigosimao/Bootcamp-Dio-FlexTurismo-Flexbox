@@ -92,7 +92,7 @@ img {
 
 /* Responsive Header */
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .header {
     flex-direction: column;
     padding-top: 60px;
@@ -167,7 +167,7 @@ img {
 
 /* Responsive Intro */
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .intro {
     display: inline-block;
     margin-top: 30px;
@@ -219,6 +219,13 @@ img {
 
   .somos {
     display: none;
+  }
+
+  @media (max-width: 380px) {
+    .intro-titulo {
+      max-width: none;
+      font-size: 2.875rem;
+    }
   }
 }
 
@@ -278,7 +285,7 @@ img {
 
 /* Responsive Serviços */
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .servicos-titulo {
     font-size: 2rem;
     padding-top: 50px;
@@ -367,7 +374,7 @@ img {
 
 /* Responsive Serviços */
 
-@media (max-width: 400px) {
+@media (max-width: 800px) {
   .planos-container {
     flex-direction: column;
     align-items: center;
